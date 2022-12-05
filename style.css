@@ -1,0 +1,66 @@
+*{
+    margin: 0;padding: 0;
+    color: darkblue;
+}
+.bg{
+    background-image: url('coffee-g720604cfa_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    display: flexbox;
+    z-index: -23;
+}
+.container{
+    width: 30%;
+
+    background-color: rgba(233, 203, 196, 0.821);
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+   float: right;
+   margin: 20px; 
+
+   margin-right: 10%;
+}
+.container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+   
+}
+.price{
+    
+    display: flex;justify-content: right;
+   
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.line{
+    height: 3px;
+    width: 80%;
+    background-color: rgb(224, 10, 10);
+    align-self: center;
+}
+.line2{
+    height: 3px;
+    width: 80%;
+    background-color: rgb(224, 10, 10);
+    margin-left: 10%;
+}
+.foot{
+    text-align: center;
+}
+.foot a{
+    text-decoration: none;
+    font-size: large;
+}
